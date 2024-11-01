@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background:linear-gradient(to right,#442b63 , #516395); */
+    background: url(images/19332030_6114100.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    backdrop-filter:blur(20px) brightness(133%);
+    border-radius: 1.5rem;
+    width: 90%;
+    max-width: 700px;
+    min-height: 60vh;
+    margin: 15%;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+span{
+    border-bottom: 2px solid green;
+    color:green;
+}
+
+.inputBox{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 2rem 0;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.copy{
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.generate{
+    margin-right: 10px;
+    width: 20px;
+    height: 30px;
+}
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(43, 117, 43);
+    color: white;
+    /* THIS IS THE IMPORTANT PART */
+     display: flex;
+     align-items: center;
+    justify-content: space-between; 
+
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
