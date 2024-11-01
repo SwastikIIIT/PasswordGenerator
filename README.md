@@ -20,4 +20,5 @@ This application creates a random password consisting of 12 characters, assistin
 ## 📸 Screenshots
 
 ### Main Interface
-![Password Generator App Screenshot](screenshot.png)
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/7617f13d-5e58-4b19-b948-6b1254474520">
+
